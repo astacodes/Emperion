@@ -3,7 +3,7 @@
 ## Booting the Library
 To load the library, use the following code snippet:
 ```lua
-local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/astacodes/Emperion/main/Source.lua')))()
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/astacodes/Emperion/main/Source.lua'))()
 ```
 
 ## Creating a Window
