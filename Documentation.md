@@ -130,7 +130,7 @@ end)
 ## Creating an Input
 To create an input field, use the `CreateInput` method:
 ```lua
-Tab:CreateInput({
+local Input = Tab:CreateInput({
     Name = "Input",
     Default = "Text",
     Callback = function(Value)
